@@ -1,0 +1,77 @@
+    body{
+    background:url('../images/blue.jpg');
+    background-size: cover;
+    font-family: Arial;
+    color: white;
+    opacity: 20;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    height: 8px;
+    list-style: none;
+    float: right;
+}
+ul li{
+    float: left;
+    width:110px;
+    height:50px;
+    opacity: .7;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 0px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font: bold;
+}
+ul li a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+ul li:hover ul li{
+    display: block;
+    margin: 0px;
+    padding: 1px;
+}
+/*div{float: right;margin: 0px;padding: 18px;}*/
+.a{color: green;float: left;text-align: center;top: 20px;}
+.b{color: red;float: left;text-align: center;top: 20px;}
+.divn{
+	color:white;
+	float: left;
+	text-align:center;
+	margin: 0px;
+    font: bold;
+    padding:0px 20px;
+
+}
+.col-md-4{
+	color: blue;
+	text-align: center;
+	height: 20px;
+	width: 30px;
+	margin: 50px;
+	padding: 95px;
+	margin-left: 200px;
+	font-size: 11px;
+	background-attachment: fixed;
+}
+.menu{
+	height: 50px;
+    width: 100%;
+  /*  background-image:url('../images/black.gif');
+    background: dark-blue;
+    border: 1px solid red;
+}*/

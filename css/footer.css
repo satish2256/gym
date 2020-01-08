@@ -1,0 +1,12 @@
+.footer{
+	height:80px;
+	width:100%;
+	/*background-color: #a50108;*/
+	
+}
+.footer #clock{
+	padding:5px 0 0 20px;
+	float:right;
+	height:70px;
+	color:#000;
+}
